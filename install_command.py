@@ -36,7 +36,7 @@ def install_py2pyc_command():
                 target = getcwd() + sep + "mkc.py"
                 if os.path.exists(target):
                     print(f"[\033[32mUPDATE\033[0m]: writing alias for {target} to {file}")
-                    string = '\n# Python to C command \nalias py2pyc="python3 ' + target
+                    string = '\n# Python to C command \nalias py2pyc="python3 ' + target + '"'
                     clean_bash_command(file, "py2pyc")
                     with open(file, "a") as wfile:
                         wfile.write(string + "\n\n")
