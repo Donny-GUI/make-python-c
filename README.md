@@ -11,15 +11,34 @@ There are two ways to install this command
 
 ## Installing the terminal command
 
-```
+### Windows
+
+```Powershell
 git clone https://github.com/Donny-GUI/make-python-c
 cd make-python-c
 python install.py
 ```
 
-## Keep as python file
+### Linux
+
+```Bash
+git clone https://github.com/Donny-GUI/make-python-c
+cd make-python-c
+python3 install.py
 ```
+
+## Keep as python file
+
+### Windows
+```Powershell
 git clone https://github.com/Donny-GUI/make-python-c
 cd make-python-c
 python mkc.py -h
 ```
+### Linux
+```Bash
+git clone https://github.com/Donny-GUI/make-python-c
+cd make-python-c
+python3 mkc.py -h
+```
+
